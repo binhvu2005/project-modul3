@@ -1,0 +1,79 @@
+.prd-filter-container {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prd-filter-title {
+    padding: 16px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.prd-filter-title p {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.prd-filter-content {
+    padding: 16px 20px;
+}
+
+.prd-filter-choise {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.prd-filter-choise input {
+    order: 1;
+}
+
+.prd-filter-choise label {
+    order: 2;
+    margin-left: 4px;
+    text-transform: uppercase;
+    
+}
+
+.prd-des {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 28px 0px;
+}
+
+.prd-des p {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.prd-filter {
+    display: none;
+}
+
+.product-shoes-content {
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-add-to-cart {
+    padding: 6px 26px;
+    background-color: var(--green);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+    .prd-filter {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}

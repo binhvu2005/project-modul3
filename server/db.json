@@ -1,0 +1,304 @@
+{
+  "categories": [
+    {
+      "id": "shoe",
+      "name": "Shoe",
+      "description": "Various types of shoes"
+    },
+    {
+      "id": "sandal",
+      "name": "Sandal",
+      "description": "Various types of sandals"
+    },
+    {
+      "id": "accessory",
+      "name": "Accessory",
+      "description": "Various types of accessories"
+    }
+  ],
+  "accounts": [
+    {
+      "img": "https://www.w3schools.com/howto/img_avatar.png",
+      "id": "12345",
+      "nameAccount": "Admin",
+      "email": "admin@gmail.com",
+      "phone": "0000000000",
+      "address": "Hà Nội",
+      "password": "admin1",
+      "status": 0,
+      "cart": [],
+      "historyBuy": [],
+      "lock": "open"
+    },
+    {
+      "img": "https://i.pinimg.com/originals/c2/7b/ed/c27bede28d95632b9fc4be05bb3576b1.jpg",
+      "id": "67890",
+      "nameAccount": "Nguyễn Huy Hoàng",
+      "email": "nguyenhoang@gmail.com",
+      "phone": "0987654321",
+      "address": "Hà Nội",
+      "password": "1234567",
+      "status": 0,
+      "cart": [
+        {
+          "idProduct": "67890",
+          "quantityBuy": 8
+        }
+      ],
+      "historyBuy": [],
+      "lock": "open"
+    },
+    {
+      "img": "https://tse1.mm.bing.net/th?id=OIP.2fspMP1BiOcibZxPubTwJAHaLG&pid=Api&P=0&h=220",
+      "id": "54321",
+      "nameAccount": "Hà Huyền Trang",
+      "email": "trang@gmail.com",
+      "phone": "0987654321",
+      "address": "Lào Cai",
+      "password": "1234567",
+      "status": 0,
+      "cart": [],
+      "historyBuy": [],
+      "lock": "open"
+    },
+    {
+      "img": "https://womendeliver.org/wp-content/uploads/2016/05/squaaaaare.jpg",
+      "id": "98765",
+      "nameAccount": "Phạm Phương Anh",
+      "email": "panh@gmail.com",
+      "phone": "0987654321",
+      "address": "Miền Nam",
+      "password": "1234567",
+      "status": 0,
+      "cart": [],
+      "historyBuy": [],
+      "lock": "locked"
+    },
+    {
+      "id": "78577",
+      "nameAccount": "bình hơi nguu",
+      "email": "vubinh2005mt@gmail.com",
+      "password": "123123",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/profile-pictures%2Flogovip_11zon.jpg?alt=media&token=397f7389-99ae-4d6d-bafc-6626b2a6767d",
+      "status": 0,
+      "lock": "locked",
+      "address": "chưa có",
+      "phone": "chưa có",
+      "cart": [],
+      "historyBuy": []
+    },
+    {
+      "id": "37148",
+      "nameAccount": "bình bướng bỉnh",
+      "email": "11@gmail.com",
+      "password": "123123",
+      "img": "https://th.bing.com/th/id/OIP._p7dSl1uR5eynQDkJyb1tgAAAA?rs=1&pid=ImgDetMain",
+      "status": 0,
+      "lock": "open",
+      "address": "chưa có",
+      "phone": "chưa có",
+      "cart": [],
+      "historyBuy": []
+    },
+    {
+      "id": "97712",
+      "nameAccount": "2",
+      "email": "1@gmail.com",
+      "password": "123123",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/profile-pictures%2F3.jpg?alt=media&token=3ecca34b-288d-475d-aeb0-eac281fb9bbd",
+      "status": 1,
+      "lock": "open",
+      "address": "chưa có",
+      "phone": "chưa có",
+      "cart": [],
+      "historyBuy": [
+        {
+          "idUser": "97712",
+          "productBuy": [
+            {
+              "idProduct": "56789",
+              "quantityBuy": 24
+            }
+          ],
+          "statusOder": "Thanh toán thành công"
+        },
+        {
+          "idUser": "97712",
+          "productBuy": [
+            {
+              "idProduct": "23456",
+              "quantityBuy": 1
+            },
+            {
+              "idProduct": "56789",
+              "quantityBuy": 1
+            }
+          ],
+          "statusOder": "Thanh toán thành công"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "nameProduct": "MEN-01",
+      "id": "12345",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe1.jpg?alt=media&token=5c8cf0e8-dcec-40e7-bf7e-72aa1323dfd1",
+      "category": "shoe",
+      "quantity": 500,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-02",
+      "id": "23456",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe2.jpg?alt=media&token=f8e8becd-f1c1-4e85-b52d-c7c06194fc82",
+      "category": "shoe",
+      "quantity": 250,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-03",
+      "id": "34567",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe3.jpg?alt=media&token=00561a7a-04d4-4401-b593-4b25399c8ed2",
+      "category": "shoe",
+      "quantity": 750,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-04",
+      "id": "45678",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe4.jpg?alt=media&token=5674b5b8-3eb6-4287-a4ea-b2fccfbd16a3",
+      "category": "shoe",
+      "quantity": 400,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-05",
+      "id": "56789",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe5.jpg?alt=media&token=3e67e2d2-146f-42e8-a11d-4671701dcdb2",
+      "category": "shoe",
+      "quantity": 600,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-06",
+      "id": "67890",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe6.jpg?alt=media&token=844c1e6c-cbfd-44d8-baf3-4fb98ad4b3d5",
+      "category": "shoe",
+      "quantity": 300,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-07",
+      "id": "78901",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe7.jpg?alt=media&token=242ea838-bf32-4c97-a923-43b77bf75cf1",
+      "category": "shoe",
+      "quantity": 800,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-08",
+      "id": "89012",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe8.jpg?alt=media&token=687afc00-2d3e-44c6-a19d-5f066f23220a",
+      "category": "shoe",
+      "quantity": 450,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-09",
+      "id": "90123",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe9.jpg?alt=media&token=7efbcc47-137e-4274-8411-57ee23c03549",
+      "category": "shoe",
+      "quantity": 550,
+      "price": 10000
+    },
+    {
+      "nameProduct": "dép vip",
+      "id": "10112",
+      "img": "https://cf.shopee.vn/file/e013c9061904cdd495c0e7f4d01fd1d8",
+      "category": "sandal",
+      "quantity": 950,
+      "price": 450000
+    },
+    {
+      "nameProduct": "dép gu chì",
+      "id": "11123",
+      "img": "https://cf.shopee.vn/file/c180cb1a5aa0c677993f0e329146980c",
+      "category": "sandal",
+      "quantity": 650,
+      "price": 250000
+    },
+    {
+      "nameProduct": "dép da",
+      "id": "12134",
+      "img": "https://cf.shopee.vn/file/f214dccc63340c1a729872a119ab72e1",
+      "category": "sandal",
+      "quantity": 850,
+      "price": 4450000
+    },
+    {
+      "nameProduct": "dép ong vàng lung linh",
+      "id": "13145",
+      "img": "https://th.bing.com/th/id/OIP.BvQkYomXrcBb0Iwz-ed33AHaHa?rs=1&pid=ImgDetMain",
+      "category": "sandal",
+      "quantity": 780,
+      "price": 4950000
+    },
+    {
+      "nameProduct": "MEN-01",
+      "id": "14156",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien1.jpg?alt=media&token=4911b434-8d06-4bac-865a-32fc24b85c95",
+      "category": "accessory",
+      "quantity": 220,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-02",
+      "id": "15167",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien2.jpg?alt=media&token=bd17eb5e-5940-449c-b8fc-e9271c405bbd",
+      "category": "accessory",
+      "quantity": 340,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-03",
+      "id": "16178",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien3.jpg?alt=media&token=384da50a-054b-44ef-80b9-e0106c8e23e3",
+      "category": "accessory",
+      "quantity": 430,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-04",
+      "id": "17189",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien4.jpg?alt=media&token=e151b8dc-ae1b-4add-b4ab-430778100794",
+      "category": "accessory",
+      "quantity": 120,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-05",
+      "id": "18190",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien5.jpg?alt=media&token=ce4e802f-65a7-4914-b1e8-8012588aedd0",
+      "category": "accessory",
+      "quantity": 320,
+      "price": 10000
+    },
+    {
+      "nameProduct": "MEN-06",
+      "id": "19201",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/phuKien6.jpg?alt=media&token=2b8386dd-d0fa-4986-970e-3e7be81695e1",
+      "category": "accessory",
+      "quantity": 230,
+      "price": 10000
+    },
+    {
+      "id": "34567",
+      "nameProduct": "MEN-03",
+      "img": "https://firebasestorage.googleapis.com/v0/b/ptit-b51c0.appspot.com/o/shoe3.jpg?alt=media&token=00561a7a-04d4-4401-b593-4b25399c8ed2",
+      "category": "shoe",
+      "quantity": 750,
+      "price": 10000
+    }
+  ]
+}

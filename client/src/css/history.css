@@ -1,0 +1,72 @@
+/* styles/history.css */
+
+/* Container chính của bảng lịch sử */
+.history-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Bảng lịch sử mua hàng */
+  .historyList {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Tiêu đề bảng */
+  .historyList thead {
+    background-color: #f4f4f4;
+  }
+  
+  .historyList th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Dữ liệu bảng */
+  .historyList tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Tô màu hàng lẻ để dễ đọc */
+  .historyList tbody tr:nth-child(odd) {
+    background-color: #e6e4e4;
+  }
+  
+  /* Tô màu hàng chẵn */
+  .historyList tbody tr:nth-child(even) {
+    background-color: #f1efef;
+  }
+  
+  /* Kích thước chữ cho dữ liệu bảng */
+  .historyList td {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Căn chỉnh văn bản */
+  .historyList td {
+    text-align: left;
+  }
+  
+  /* Định dạng số tiền */
+  .historyList td:last-child {
+    text-align: left;
+  }
+  
+  /* Thêm hiệu ứng khi di chuột qua hàng */
+  .historyList tbody tr:hover {
+    background-color: #b1afaf;
+  }
+  
+  /* Định dạng cho trạng thái đơn hàng */
+  .historyList .status1 {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
